@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.8450000000000006" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-19T23:13:40" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="unit test for login, post new article, and logout" timestamp="2019-11-19T23:13:40" tests="5" file="F:\Rice----------------\Courses19Fall\Web\HW6-BackEnd\src\articles.spec.js" failures="0" time="3.0600000000000005">
+    <testcase name="unit test for login, post new article, and logout should login the test user" time="0.388" classname="should login the test user">
+    </testcase>
+    <testcase name="unit test for login, post new article, and logout should get the articles of the test user" time="1.618" classname="should get the articles of the test user">
+    </testcase>
+    <testcase name="unit test for login, post new article, and logout should POST a new articles" time="0.334" classname="should POST a new articles">
+    </testcase>
+    <testcase name="unit test for login, post new article, and logout should GET articles with articlesNum + 1" time="0.394" classname="should GET articles with articlesNum + 1">
+    </testcase>
+    <testcase name="unit test for login, post new article, and logout should logout the test user" time="0.326" classname="should logout the test user">
+    </testcase>
+  </testsuite>
+  <testsuite name="validate headline-ralated function" timestamp="2019-11-19T23:13:43" tests="2" file="F:\Rice----------------\Courses19Fall\Web\HW6-BackEnd\src\profile.spec.js" failures="0" time="0.785">
+    <testcase name="validate headline-ralated function should GET headline for the test user" time="0.386" classname="should GET headline for the test user">
+    </testcase>
+    <testcase name="validate headline-ralated function should PUT headline for the test user" time="0.399" classname="should PUT headline for the test user">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.6910000000000001" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-19T23:09:26" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="validate headline-ralated function" timestamp="2019-11-19T23:09:26" tests="2" file="F:\Rice----------------\Courses19Fall\Web\HW6-BackEnd\src\profile.spec.js" failures="0" time="0.6910000000000001">
+    <testcase name="validate headline-ralated function should GET headline for the test user" time="0.451" classname="should GET headline for the test user">
+    </testcase>
+    <testcase name="validate headline-ralated function should PUT headline for the test user" time="0.24" classname="should PUT headline for the test user">
+    </testcase>
+  </testsuite>
+</testsuites>

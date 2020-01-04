@@ -1,0 +1,50 @@
+{
+  "name": "HW6-BackEnd",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Demo RiceBookServer",
+  "license": "MIT",
+  "repository": "https://github.com/skotep/webdev",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "chai": "^3.5.0",
+    "cloudinary": "^1.17.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.3",
+    "express-session": "^1.15.2",
+    "isomorphic-fetch": "^2.2.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.7.9",
+    "morgan": "^1.7.0",
+    "multer": "^1.4.2",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "querystring": "^0.2.0",
+    "redis": "^2.8.0",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "mocha --opts mocha.opts src/**/*.spec.js",
+    "test:watch": "npm run test -- -w",
+    "test-jenkins": "report.xml mocha --colors --reporter mocha-jenkins-reporter"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "express-session": "^1.15.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mocha": "^6.2.2",
+    "mocha-junit-reporter": "^1.23.1",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0"
+  }
+}

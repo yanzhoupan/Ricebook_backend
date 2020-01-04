@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.429" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-19T23:10:09" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="unit test for login, post new article, and logout" timestamp="2019-11-19T23:10:09" tests="5" file="F:\Rice----------------\Courses19Fall\Web\HW6-BackEnd\src\articles.spec.js" failures="0" time="3.429">
+    <testcase name="unit test for login, post new article, and logout should login the test user" time="1.023" classname="should login the test user">
+    </testcase>
+    <testcase name="unit test for login, post new article, and logout should get the articles of the test user" time="0.417" classname="should get the articles of the test user">
+    </testcase>
+    <testcase name="unit test for login, post new article, and logout should POST a new articles" time="1.121" classname="should POST a new articles">
+    </testcase>
+    <testcase name="unit test for login, post new article, and logout should GET articles with articlesNum + 1" time="0.425" classname="should GET articles with articlesNum + 1">
+    </testcase>
+    <testcase name="unit test for login, post new article, and logout should logout the test user" time="0.443" classname="should logout the test user">
+    </testcase>
+  </testsuite>
+</testsuites>
